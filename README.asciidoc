@@ -1,0 +1,19 @@
+== Free Register
+
+This is a little library that provides a consistent API for the purpose of
+registering services with a backend that could be used for such a thing, e.g.
+Consul, Zookeeper, a key-value store, an internal service.
+
+The purpose of this project is to allow me to learn and understand `non/cats`
+project and use it as an illustrative example of how we could use the idea of
+free monads in operations work.
+
+=== Status
+
+Just started. Look away for a short time while I get rolling. :)
+
+=== License
+
+This will be licensed under the 3-clause BSD license. See link:LICENSE[].
+
+
