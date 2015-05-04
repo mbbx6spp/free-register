@@ -1,0 +1,5 @@
+package freeregistry
+
+trait FreeRegistryTypeclasses {
+
+}
