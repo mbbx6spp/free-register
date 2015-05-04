@@ -16,4 +16,20 @@ Just started. Look away for a short time while I get rolling. :)
 
 This will be licensed under the 3-clause BSD license. See link:LICENSE[].
 
+=== Structure
+
+The structure of this project will be to provide the basic core API in a
+separate package `freeregistry-core` and then the implementations of the
+backend _adapters_ will be available with name `freeregistry-BACKEND`. For
+example, we might have a backend for Consul or Zookeeper. Each of their
+implementations would be contained inside the dependencies
+`freeregistry-consul` and `freeregistry-zookeeper` respectively.
+
+=== TODO
+
+* Setup basic multi project SBT project
+* Add `non/cats` 0.1.0-SNAPSHOT dependency with minimal amount of hackery
+  (and document for others to following along at home).
+* Specify the types for the registry client API.
+
 
